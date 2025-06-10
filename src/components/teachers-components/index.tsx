@@ -13,7 +13,7 @@ const TeacherComponent = () => {
   const [isModalOpen2, setIsModalOpen2] = useState<boolean>(false);
   const [inputText, setInputText] = useState<string>("");
   const [searchText, setSearchText] = useState<string>("");
-
+  searchText
     const filteredData = data?.filter((admin) =>
     `${admin.first_name} ${admin.last_name} ${admin.email}`
       .toLowerCase()

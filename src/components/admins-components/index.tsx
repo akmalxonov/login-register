@@ -15,6 +15,7 @@ const AdminComponent = () => {
   const [inputText, setInputText] = useState<string>("");
   const [searchText, setSearchText] = useState<string>("");
 
+  searchText
   // Real-time qidiruv
   const filteredData = data?.filter((admin) =>
     `${admin.first_name} ${admin.last_name} ${admin.email}`
